@@ -101,7 +101,7 @@ html,body{
         transform: translate(-50%,-50%);
     }
     #msg{
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 @media ((width >=450px) and (width<=720px)){
