@@ -1,0 +1,111 @@
+
+*{
+    
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(131,58,180);
+    background: linear-gradient(71deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 59%, rgba(252,176,69,1) 100%);
+}
+
+#container{
+    height: 40%;
+    width: 20%;
+    /* background-color: #487a7a; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+.box{
+    height: 30%;
+    width: 30%;
+    border-radius: 10%;
+    font-size: 5vh;
+    font-weight: 900;
+    text-shadow: 2px 2px #ff0000;
+    background: rgb(222,57,133);
+    background: linear-gradient(140deg, rgba(222,57,133,1) 20%, rgba(148,187,233,1) 100%);    border: none;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 1);
+ 
+}
+#rst{
+   margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    box-shadow:  5px 5px 10px 0px rgba(0, 0, 0, .7);
+    
+
+}
+.msg-container{
+  height: 20%;
+  display: flex;
+  text-shadow: 2px 2px red;
+  color: white;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+#msg{
+    font-size: 30px;
+  
+}
+#new-game-btn{
+    position: absolute;
+    left: 50%;
+    top: 28%;
+    transform: translate(-50%, -50%);
+    margin-top: 10px;
+     width: 100px;
+     height: 30px;
+     font-size: 20px;
+     color: white;
+     background-color: black;
+     border-radius: 10px;
+     border: none;
+    
+    margin-left: 10px;
+   
+ }
+ .hide{
+    display: none;
+ }
+
+@media  (width <=450px) {
+    #container{
+        width: 100%;
+    }
+    #new-game-btn{
+        position: absolute;
+        left: 50%;
+        
+        transform: translate(-50%,-50%);
+    }
+    #msg{
+        font-size: 30px;
+    }
+}
+@media ((width >=450px) and (width<=720px)){
+    #container{
+        width: 80%;
+    }
+}
