@@ -110,3 +110,19 @@ html,body{
         width: 80%;
     }
 }
+@media (orientation :landscape){
+    #container{
+        width: 30%;
+        height: 50%;
+    }
+    #msg{
+        font-size: 23px;
+    }
+    #new-game-btn{
+        width: 10%;
+        height: 20px;
+        font-size: 10px;
+        top: 20%;
+        
+    }
+}
